@@ -1,4 +1,4 @@
-# Test UI with Playwright (for beginner)
+# Test UI with Playwright
 
 1. [Pre-requisites](#pre-requisites)
 2. [Configure](#configure)
