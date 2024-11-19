@@ -16,6 +16,8 @@
 
 ```sh
 pnpm install
+
+pnpm exec playwright install --with-deps
 ```
 
 ### VSCode Playwright extension
@@ -26,8 +28,8 @@ Then searche for playwright and the very first thing which has a check mark of M
 <img src="assets/playwright-extension.png" alt="VSCode extensions" width="300"/>
 
 
-### Playwright installation
-Create a new test 'demo-test' project and open it in VSCode.
+### Playwright installation (new projetct)
+Create a new test project and open it in VSCode.
 
 Open a new terminal session and execute command:
 
@@ -36,7 +38,7 @@ pnpm create playwright
 ```
 
 ## Execute tests
-In a terminal, execute command:
+In a terminal, execute command (e2e directory):
 ```sh
 npx playwright test
 

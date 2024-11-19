@@ -23,5 +23,11 @@
     "prettier": "3.3.3",
     "typescript": "^5.6.3",
     "typescript-eslint": "^8.15.0"
+  },
+  "engines": {
+    "yarn": "please use pnpm",
+    "npm": "please use pnpm",
+    "node": ">=20",
+    "pnpm": ">=9"
   }
 }
